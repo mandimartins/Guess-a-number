@@ -16,10 +16,11 @@ const styles = StyleSheet.create({
     },
     shadowRadius: 6,
     shadowOpacity: 0.26,
-    elevation: 5,
+    elevation: 8,
     backgroundColor: 'white',
     padding: 20,
     borderRadius: 10,
+    marginVertical: 10,
   },
 });
 
