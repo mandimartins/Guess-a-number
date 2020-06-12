@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from 'react-native';
 
 import Colors from '../constants/colors';
 
-const NumerContainer = (props) => {
+const NumberContainer = (props) => {
   return (
     <View style={styles.container}>
       <Text style={styles.number}>{props.children}</Text>
@@ -26,4 +26,5 @@ const styles = StyleSheet.create({
     fontSize: 22,
   },
 });
-export default NumerContainer;
+
+export default NumberContainer;
